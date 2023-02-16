@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JarJarBinks.MenuController">
+   <children>
+      <Separator layoutY="58.0" prefHeight="0.0" prefWidth="600.0" />
+      <Label layoutX="91.0" layoutY="26.0" text="Admin Menu" />
+      <Button layoutX="91.0" layoutY="309.0" mnemonicParsing="false" onAction="#logOut" text="Log-Out" />
+      <Button layoutX="234.0" layoutY="193.0" mnemonicParsing="false" onAction="#changePassword" prefHeight="26.0" prefWidth="150.0" text="Change Password" />
+      <Button layoutX="233.0" layoutY="94.0" mnemonicParsing="false" onAction="#manageTasks" prefHeight="26.0" prefWidth="150.0" text="Manage Tasks" />
+      <Button layoutX="233.0" layoutY="144.0" mnemonicParsing="false" onAction="#overrideTaskAllocation" text="Override Task Allocation" />
+      <Button layoutX="85.0" layoutY="94.0" mnemonicParsing="false" onAction="#logTask" prefHeight="26.0" prefWidth="117.0" text="Log Task" />
+      <Button layoutX="85.0" layoutY="144.0" mnemonicParsing="false" onAction="#showReportsAdmin" prefHeight="26.0" prefWidth="117.0" text="Reports" />
+   </children>
+</AnchorPane>
